@@ -1,6 +1,6 @@
 a:hover,
 a:focus {
-    color: #FE7A66;
+    color: #ffa300;
 }
 
 a,.tp-caption a.btn:hover {
@@ -14,7 +14,7 @@ a,.tp-caption a.btn:hover {
 	color: #FE7A66;
 }
 
-.team-wrapper-big:hover .team-wrapper-overlay, .team-wrapper-small:hover .team-wrapper-overlay { background: #FE7A66; }
+.team-wrapper-big:hover .team-wrapper-overlay, .team-wrapper-small:hover .team-wrapper-overlay { background: #ffa300; }
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
@@ -84,7 +84,7 @@ ul.comment-meta li.reply a {
   background: #FE7A66;
 }
 
-.flex-control-paging li a.flex-active { background: #FE7A66;
+.flex-control-paging li a.flex-active { background: #ffa300;
 	}
 /* team */
 .team-box {
@@ -110,6 +110,6 @@ footer a.totop:hover {
 
 .btn-skin {
   color: #fff;
-  background-color: #FE7A66;
-  border-color: #FE7A66;
+  background-color: #0c73ad;
+  border-color: #0c73ad;
 }

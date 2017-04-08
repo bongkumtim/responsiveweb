@@ -6,7 +6,9 @@
 */
  
 /* ==== Google font ==== */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
 /* --- pe-icon-7-stroke --- */
 @import url('pe-icon-7-stroke.css');
@@ -16,11 +18,11 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Lato',sans-serif;
-	font-weight: 300;
+    font-family: 'Titillium Web',sans-serif;
+    font-weight: 300;
     color: #666;
     background-color: #fff;
-	font-size: 16px;
+    font-size: 16px;
     line-height: 1.6em;
 }
 
@@ -42,7 +44,10 @@ h4 {
 	font-size: 28px;
 }
 h5 {
-	font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+	font-size: 20px;
+
 }
 h6 {
 	font-size: 20px;
@@ -52,24 +57,24 @@ h1,
 h2,
 h3,
 h4,
-h5,
+
 h6 {
     margin: 0 0 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
-	color: #111;
+    color: #ffa300;
 }
 
 h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
-	font-weight: 200;
+	font-weight: 400;
 }
 
 h1.h-light,h2.h-light,h3.h-light ,h4.h-light ,h5.h-light ,h6.h-light  {
-	font-weight: 300;
+	font-weight: 600;
 }
 
 h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-light {
@@ -77,7 +82,7 @@ h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-li
 }
 
 .big-heading {
-	font-size: 48px;
+	font-size: 60px;
 	font-weight: 700;
 }
 
@@ -193,15 +198,16 @@ blockquote strong {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 12px;
+	font-size: 20px;
 	letter-spacing: 1px;
-    color: #444;
+  color: #0c73ad;
 	text-transform: uppercase;
-	font-weight: 700;
+  font-weight: 700;
+
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 	color: #fff;
@@ -256,14 +262,14 @@ blockquote strong {
 .navbar-custom .nav li.active {
     outline: 0;
     background-color: rgba(255,255,255,.2);
-    color: #FE7A66;
+    color: #ffa300;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
     background-color: rgba(255,255,255,.2);
-    color: #FE7A66;
+    color: #ffa300;
 }
 
 .navbar-toggle {
@@ -458,7 +464,7 @@ hr.bold {
 
 .home-section {
     padding-top: 150px;
-    padding-bottom: 110px;
+    padding-bottom: 100px;
 	display:block;
     position:relative;
     z-index:120;
@@ -471,47 +477,47 @@ hr.bold {
 
 
 .home-section.nopadd-bot {
-    padding-bottom: 0;
+ /*   padding-bottom: 0;*/
 }
 
 
 .section-heading h2 {
-	font-size: 48px;
+	font-size: 40px;
 	letter-spacing: -1px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
 
 .section-heading p {
-	font-weight: 300;
+
 	font-size: 20px;
 	line-height: 1.6em;
 }
 
 .color-dark .section-heading h2 {
-	color: #111;
+	color: #0c73ad;
 }
 .color-dark .section-heading p {
-	color: #444;
+	color: #666;
 }
 
 .color-dark .divider-short {
-	background: #666;
+	background: #0c73ad;
 }
 .color-dark .divider-header {
-	background: #666;
+	background: #0c73ad;
 }
 
 .color-light .divider-short {
-	background: #666;
+	background: #0c73ad;
 }
 .color-light .divider-header {
-	background: #666;
+	background: #0c73ad;
 }
 
 
 .color-light .section-heading h2 {
-	color: #fff;
+	color: #0c73ad;
 }
 .color-light .section-heading p {
 	color: #fefefe;
@@ -525,6 +531,10 @@ hr.bold {
 
 .bg-white {
 	background: #fff;
+}
+
+.bg-yellow {
+  background: #ffa300;
 }
 
 .bg-gray {
@@ -1362,7 +1372,7 @@ Parallax
 
 .testimonialslide ul li h4 {
 	color: #fff;
-	font-weight: 900;
+	font-weight: 700;
 }
 .testimonialslide ul li h4 span {
 	color: #fff;
@@ -1766,8 +1776,8 @@ a.btn:focus{
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
-  border-color: #666;
+  background-color: #ffa300;
+  border-color: #ffa300;
 }
 
 
@@ -1835,6 +1845,7 @@ a.btn:focus{
 	.site-logo{
 		margin: 0 0 0 30px;
 		float:none;
+
 	}
 	.navbar-custom ul.nav li a {
 		color: #eee;
